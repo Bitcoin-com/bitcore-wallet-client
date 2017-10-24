@@ -17,11 +17,11 @@
   "engine": "node >= 8.0.0",
   "main": "index.js",
   "repository": {
-    "url": "git@github.com:bitpay/bitcore-wallet-client.git",
+    "url": "git@github.com:Bitcoin-com/bitcore-wallet-client-new.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-wallet-client/issues"
+    "url": "https://github.com/Bitcoin-com/bitcore-wallet-client-new/issues"
   },
   "dependencies": {
     "async": "^0.9.0",

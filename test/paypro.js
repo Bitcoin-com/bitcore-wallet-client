@@ -56,6 +56,7 @@ describe('paypro', function() {
   });
 
   it('Make a PP request with browser', function(done) {
+    xhr.status=200;
     PayPro.get({
       url: 'http://an.url.com/paypro',
       xhr: xhr,
@@ -147,14 +148,14 @@ describe('paypro', function() {
       env: 'node',
     }, function(err, res) {
       err.should.be.an.instanceOf(Error);
-      err.message.should.equal('HTTP Request Error');
+      err.message.should.include('HTTP Request Error');
       done();
     });
   });
 
   it('Create a PP payment', function() {
     var data = TestData.payProData;
-    var payment = PayPro._createPayment(data.merchant_data, '12ab1234', 'mwRGmB4NE3bG4EbXJKTHf8uvodoUtMCRhZ', 100);
+    var payment = PayPro._createPayment(data.merchant_data, '12ab1234', 'mwRGmB4NE3bG4EbXJKTHf8uvodoUtMCRhZ', 100, 'bch');
     var s = '';
     for (var i = 0; i < payment.length; i++) {
       s += payment[i].toString(16);

@@ -56,7 +56,7 @@ describe('paypro', function() {
   });
 
   it('Make a PP request with browser', function(done) {
-    xhr.status=200;
+    xhr.status = 200;
     PayPro.get({
       url: 'http://an.url.com/paypro',
       xhr: xhr,

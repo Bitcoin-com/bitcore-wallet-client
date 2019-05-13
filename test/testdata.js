@@ -86,6 +86,8 @@ var payProData = {
   toAddress: 'mjfjcbuYwBUdEyq2m7AezjCAR4etUBqyiE',
   amount: 404500,
   network: 'testnet',
+  outs:
+   [ { addr: 'mjfjcbuYwBUdEyq2m7AezjCAR4etUBqyiE', amount: 404500 } ],
   domain: 'an.url.com',
   url: 'http://an.url.com/paypro',
   merchant_data: '{"invoiceId":"CibEJJtG1t9H77KmM61E2t","merchantId":"DGfuCDeofUnWjDmU7ELcEh"}',

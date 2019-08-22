@@ -29,7 +29,7 @@
     "bitcore-lib": "0.14.0",
     "bitcore-lib-cash": "https://github.com/Bitcoin-com/bitcore-lib-cash.git",
     "bitcore-mnemonic": "1.2.2",
-    "bitcore-payment-protocol": "https://github.com/Bitcoin-com/bitcore-payment-protocol.git#ef3c54b40cba996e36f539ebedf9acb378fd4e59",
+    "bitcore-payment-protocol": "https://github.com/Bitcoin-com/bitcore-payment-protocol.git#stable-locked",
     "json-stable-stringify": "1.0.1",
     "lodash": "3.3.1",
     "preconditions": "1.0.8",

@@ -27,7 +27,7 @@
     "async": "0.9.2",
     "bip38": "1.4.0",
     "bitcore-lib": "0.14.0",
-    "bitcore-lib-cash": "https://github.com/Bitcoin-com/bitcore-lib-cash.git",
+    "bitcore-lib-cash": "https://github.com/Bitcoin-com/bitcore-lib-cash.git#stable-locked",
     "bitcore-mnemonic": "1.2.2",
     "bitcore-payment-protocol": "https://github.com/Bitcoin-com/bitcore-payment-protocol.git#stable-locked",
     "json-stable-stringify": "1.0.1",

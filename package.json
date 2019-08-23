@@ -37,7 +37,7 @@
     "superagent": "3.4.4"
   },
   "devDependencies": {
-    "bitcore-wallet-service": "https://github.com/Bitcoin-com/bitcore-wallet-service.git",
+    "bitcore-wallet-service": "https://github.com/Bitcoin-com/bitcore-wallet-service.git#stable-locked",
     "browserify": "13.1.0",
     "chai": "1.9.1",
     "coveralls": "2.11.2",
